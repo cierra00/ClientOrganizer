@@ -8,17 +8,6 @@ The purpose of this application is to show my web development skills I learned i
 
 I dynamically added the card data to allow future functionality of adding and deleting contacts in the client organizer
 
-
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-
 ## Authors
 
 Cierra Ray
