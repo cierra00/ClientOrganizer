@@ -37,7 +37,9 @@ nav a span {
   grid-template-areas: "image details delete";
   position: relative;
 }
-
+.card-panel >  {
+  margin: 2px;
+}
 .task img {
   grid-area: image;
   max-width: 60px;

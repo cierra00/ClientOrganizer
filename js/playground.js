@@ -114,6 +114,8 @@ email.appendChild(emailTag)
 const phone = document.createElement("button");
 phone.className = "task-description";
 phone.style.width = "60%"
+phone.style.borderRadius = "0.2rem"
+phone.style.paddingTop = "0.2rem"
 phone.style.padding ="0.2rem"
 phone.innerHTML = person.phone ;
 taskDetail.append(phone);
