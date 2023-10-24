@@ -1,48 +1,4 @@
-/* Promises */
 
-/*const  myPromise = new Promise ((resolve, reject) =>{
-    const error = false;
-
-    if(error){
-        resolve('Promise is Resolved');
-    }  else {
-        reject("Promise was Rejected");
-    }
-});
-
-
-
- myPromise.then(value=>{
-    return value + " This is the new value";
-}).then(newValue=>{
-    console.log(newValue)
-}).catch(err=>{
-    console.log(err)
-}) 
-
-const myNextPromise = new Promise((res,rej)=>{
-    setTimeout(()=>{
-        res('this really works');
-    }, 3000);
-    
-})
-
-myNextPromise.then(value=>{
-    console.log(value);
-}).catch(err=>{
-    console.log(err);
-}) 
-
-fetch("https://jsonplaceholder.typicode.com/users").then(res=>{
-     return res.json();
-     }).then(data =>{
-       const onePerson = data.filter( persons => persons.id === 2).map( person => {
-        console.log(person.name)
-    })
-})
-     
-
-*/
 const myUsers = {
     userList:[],
 }
@@ -147,21 +103,7 @@ deleteIcon.className ="material-icons";
 deleteIcon.innerText = 'delete_outline';
 deleteItem.appendChild(deleteIcon);
 
-//img
-
-
-
-
-
-})
- 
-
-
-}
-
-
-
-
+})}
 myFunction();
 
 
